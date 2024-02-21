@@ -1,4 +1,4 @@
-# TMB_Endo_Inception_V3
+# TMB Endo InceptionV3
 ## Setup
 
 #### Requirerements
