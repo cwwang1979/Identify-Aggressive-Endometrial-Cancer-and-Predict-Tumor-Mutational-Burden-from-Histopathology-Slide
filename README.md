@@ -155,7 +155,7 @@ After running in a terminal, the result will be display on the terminal window, 
 Open the "inference.py" file to set up the storage location of training models and the location of testing list("test_IPS.txt") to use.
 Then in a terminal run:
 ```
-./ run.sh
+./run.sh
 ```
 
 <!--
