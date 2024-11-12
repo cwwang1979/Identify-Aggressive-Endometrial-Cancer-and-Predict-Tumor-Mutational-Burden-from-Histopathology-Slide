@@ -10,7 +10,7 @@
 - cuDNN version >= 7.6.4
 
 #### Download
-Execution file, configuration file, and models are download from the [zip](https://drive.google.com/file/d/1kBkBu35SwN8ODmYaqA4QumHcGIZ63IrG/view?usp=sharing) file.  (For reviewers, "..._cwlab" is the password to decompress the file.)
+Execution file, configuration file, and models are download from the [zip](https://drive.google.com/file/d/16TtxaGkPNqNwYhji55Kupv-bmmpC4ObJ/view?usp=drive_link) file.  (For reviewers, "..._cwlab" is the password to decompress the file.)
 
 #### File structure
 ```
@@ -151,7 +151,14 @@ python Model_selection.py
 ```
 After running in a terminal, the result will be display on the terminal window, record the model name and Copy it to the folder 'inference/Model'.
 
+#### 7. Testing
+Open the "inference.py" file to set up the storage location of training models and the location of testing list("test_IPS.txt") to use.
+Then in a terminal run:
+```
+./ run.sh
+```
 
+<!--
 #### 6. Patch Selection for inference
 Utilize the 'Patch_selection' file to choose the tiles for inference.
 
@@ -169,7 +176,7 @@ Then in a terminal run:
 ```
 python inference.py
 ```
-
+-->
 
 ## License
 This extension to the Caffe library is released under a creative commons license, which allows for personal and research use only. For a commercial license please contact Prof Ching-Wei Wang. You can view a license summary here:  
